@@ -88,12 +88,91 @@
           (position) in a string: Example let text = "HELLO WORLD"; let char =
           text.charAt(0);//H
         </li>
-        <li>A string can be converted to an array with the split() method:
+        <li>
+          A string can be converted to an array with the split() method: Example
+          text.split(",") // Split on commas text.split(" ") // Split on spaces
+          text.split("|") // Split on pipe
+        </li>
+        <li>
+          <a href="https://zellwk.com/blog/es6/#arrow-functions">
+            Arrow functions =></a
+          >
+          basicly its ES6 syntax let array = [1,7,98,5,4,2] // ES5 way var
+          moreThan20 = array.filter(function (num) { return num > 20 }) // ES6
+          way let moreThan20 = array.filter(num => num > 20)
+        </li>
 
-          Example
-          text.split(",")    // Split on commas
-          text.split(" ")    // Split on spaces
-          text.split("|")    // Split on pipe</li>
+        <li>
+          <a href="https://javascript.info/event-delegation#summary"
+            >Event delegation</a
+          >
+          is really cool! It’s one of the most helpful patterns for DOM events.
+          It’s often used to add the same handling for many similar elements
+        </li>
+
+        <li>
+          <a href="https://javascript.info/introduction-browser-events"
+            >introduction-browser-events</a
+          >
+          - An event is a signal that something has happened. All DOM nodes
+          generate such signals (but events are not limited to DOM). Event
+          handlers To react on events we can assign a handler a function that
+          runs in case of an event. Handlers are a way to run JavaScript code in
+          case of user actions.
+        </li>
+        <li>
+          <strong>includes</strong> checks strings for a given match. If a
+          string is found, it returns true; if not, it returns false. Note:
+          includes is case sensitive. // Example of how includes work.
+
+          <caption>
+            const string = 'The hamburgers taste pretty good!' const
+            hasExclaimation = string.includes('!') console.log(hasExclaimation)
+            // true
+          </caption>
+        </li>
+
+        <li>
+          <a
+            href="https://gomakethings.com/the-early-return-pattern-in-javascript/"
+            >early return pattern in JavaScript</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator"
+            >Ternary operators</a
+          >
+          This operator is frequently used as an alternative to an if...else
+          statement. Syntax condition ? exprIfTrue : exprIfFalse
+        </li>
+
+        <li>
+          <a
+            href="https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c"
+            >Pure Functions</a
+          >
+          The definition of a pure function is: The function always returns the
+          same result if the same arguments are passed in. It does not depend on
+          any state, or data, change during a program’s execution. It must only
+          depend on its input arguments. The function does not produce any
+          observable side effects such as network requests, input and output
+          devices, or data mutation.
+        </li>
+
+        <li>
+          <a href="https://zellwk.com/blog/es6/#destructuring">destructuring</a>
+        </li>
+
+        <li>
+          It is considered the best practice to place the
+          <strong
+            >script element in the body section just before the closing /body
+            tag.
+          </strong>
+          <!-- -->
+        </li>
       </ol>
 
       The div element is used mainly for design layout purposes unlike the other
